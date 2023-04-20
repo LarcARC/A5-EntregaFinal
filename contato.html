@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contato</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav_header">
+      <h1 class="logo">HTML5</h1>
+      <nav>
+        <ul class="nav_list">
+          <a href="#section1">Inicio</a>
+          <a href="#section1">HTML</a>
+          <a href="#tl">Tabela e Listas</a>
+          <a href="#topicos">Sobre CSS, HTML e JS</a>
+          <a href="#footer">Links</a>
+          <a href="contato.html">Contato</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="login">
+    <form action="obrigado.html" target="_self">
+      <div class="contato">
+        <h1>Contato</h1>
+      </div>
+      <div class="nome">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required />
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="assunto">
+        <label for="select">Assunto</label>
+        <select name="select" id="select">
+          <option value="Sugestao">Sugestão</option>
+          <option value="Critica">Crítica</option>
+          <option value="Elogio" selected>Elogio</option>
+        </select>
+      </div>
+      <div class="mensagem">
+        <label for="mensagem">Escreva sua mensagem: </label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="Concordo" id="Concorda" required />
+        <label for="Concordo">Concordo com os Termos de Privacidade do Site</label>
+      </div>
+      <div class="footer">
+        <input type="submit" value="Enviar" class="enviar" />
+      </div>
+    </form>
+  </div>
+  <footer id="footer">
+    <div class="f1">
+      <h2>Sobre</h2>
+      <nav>
+        <ul>
+          <a href="#">Topo</a>
+          <a href="#">Politicade de privacidade</a>
+          <a href="#">Fale conosco</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="f2">
+      <h2>Referências</h2>
+      <nav>
+        <ul>
+          <a href="#">W3School</a>
+          <a href="#">Alura</a>
+          <a href="#">Youtube</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="f3">
+      <h2>Tutoriais</h2>
+      <nav>
+        <ul>
+          <a href="#">Design</a>
+          <a href="#">Marketing</a>
+          <a href="#">Programação</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="f4">
+      <h2>Outros links</h2>
+      <nav>
+        <ul>
+          <a href="#">Escolha 3 links</a>
+          <a href="#">Para sugerir</a>
+          <a href="#">Aqui nesse espaço</a>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
